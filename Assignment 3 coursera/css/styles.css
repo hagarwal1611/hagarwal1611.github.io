@@ -1,0 +1,93 @@
+body {
+	background: lightgrey;
+	margin: 0px;
+}
+h3 {
+  
+  margin-top: 70px !important;
+  margin-bottom: 10px !important;
+}
+li {
+  background-color: white;
+  font-size: 2em;
+}
+li:hover {
+  background-color: gray;
+}
+a {
+  color: black;
+  text-align: center;
+}
+#head1, #head2, #head3 {
+  
+  font-size: 170%;
+  
+  
+  text-align: center;
+  float: center;
+  
+  position: relative;
+}
+p {
+  clear: right !important;
+  margin: 10px !important;
+}
+/** HEADER **/
+.icon-bar {
+    height: 100%;
+    width: 90px;
+    text-align: center;
+    background-color: #555;
+}
+
+.icon-bar a {
+    padding: 16px;
+    display: none;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  color: black !important;
+  border : 5px solid black !important;
+}
+.navbar-brand a:hover, .navbar-brand a:focus, a {
+  text-decoration: none !important;
+  color: black !important;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -5px;
+  background-color: black;
+}
+.navbar-header{
+  clear: both;
+  margin-top: -35px;
+}
+.navbar-brand h2 {
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0.5px 0.5px 0.5px #222;
+  line-height: 2;
+}
+section{
+  background-color: gray;
+  border: 20px solid white;
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px !important;
+  margin-right: 10px !important;
+  width:100%;
+}
+/* END HEADER */
